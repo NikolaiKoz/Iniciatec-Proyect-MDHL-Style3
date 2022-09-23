@@ -1,75 +1,75 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin                : 0;
+    padding               : 0;
+    box-sizing            : border-box;
 }
 
 body{
-    height: 100vh;
-    width: 90%;
-    margin: 0 auto;
+    height                : 100vh;
+    width                 : 90%;
+    margin                : 0 auto;
 }
 
 /* NAVBAR */
 
 .navbar{
-    margin-top: 1em;
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
-    margin-bottom: 1em;
+    margin-top            : 1em;
+    display               : flex;
+    justify-content       : space-evenly;
+    position              : relative;
+    box-shadow            : rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius         : 10px;
+    margin-bottom         : 1em;
 }
 
 .navbar__anchor{
-    padding: 1em;
-    text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
-    color: black;
+    padding               : 1em;
+    text-decoration       : none;
+    font-family           : 'Ubuntu', sans-serif;
+    color                 : black;
 }
 
 .selected{
-    text-transform: uppercase;
-    font-weight: 700;
-    font-style: italic;
+    text-transform        : uppercase;
+    font-weight           : 700;
+    font-style            : italic;
 }
 
 .navbar__containerShortcut{
-    width: 2em;
-    position: absolute;
-    top: 1.5em;
-    right: 1em;
-    cursor: pointer;
-    display: none;
+    width                 : 2em;
+    position              : absolute;
+    top                   : 1.5em;
+    right                 : 1em;
+    cursor                : pointer;
+    display               : none;
 }
 
 .navbar__containerShortcut__shortcut{
-    max-width: 100%;
+    max-width             : 100%;
 }
 
 .navbar__containerLogo{
-    width: 5em;
-    position: absolute;
-    top: 0;
-    left: 1em;
-    display: none;
+    width                 : 5em;
+    position              : absolute;
+    top                   : 0;
+    left                  : 1em;
+    display               : none;
 }
 
 .navbar__containerLogo__logo{
-    max-width: 100%;
+    max-width             : 100%;
 }
 
 @media screen and (max-width: 610px) {
     .navbar{
-        flex-direction: column;
-        align-items: center;
+        flex-direction    : column;
+        align-items       : center;
     }
     .navbar__containerShortcut{
-        display: unset;
+        display           : unset;
     }
     .navbar__containerLogo{
-        display: unset;
+        display           : unset;
     }
 }
 
@@ -78,168 +78,168 @@ body{
 /* HEADER */
 
 .header__title{
-    display: none;
+    display               : none;
 }
 
 .header__img{
-    height: 30em;
-    margin-bottom: 1em;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    flex-flow: wrap;
-    align-content: center;
+    height                : 30em;
+    margin-bottom         : 1em;
+    position              : relative;
+    display               : flex;
+    justify-content       : center;
+    flex-flow             : wrap;
+    align-content         : center;
 }
 
 .header__img::after{
-    background-image: url(../assets/img/design1_image1.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    position: absolute;
-    content: "";
-    height: 100%;
-    border-radius: 15px;
-    width: 100%;
-    filter: grayscale(100%);
+    background-image      : url(../assets/img/design1_image1.jpg);
+    background-position   : center;
+    background-repeat     : no-repeat;
+    position              : absolute;
+    content               : "";
+    height                : 100%;
+    border-radius         : 15px;
+    width                 : 100%;
+    filter                : grayscale(100%);
 }
 
 .header__containerImg{
-    height: 100%;
-    z-index: 1;
+    height                : 100%;
+    z-index               : 1;
 }
 .header__containerImg__img{
-    height: 100%;
+    height                : 100%;
 }
 
 .header__subtitle{
-    border-radius: 10px;
-    background: black;
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-style: italic;
-    margin-bottom: 2em;
-    box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+    border-radius         : 10px;
+    background            : black;
+    color                 : white;
+    text-align            : center;
+    text-transform        : uppercase;
+    text-transform        : uppercase;
+    font-weight           : 700;
+    font-style            : italic;
+    margin-bottom         : 2em;
+    box-shadow            : rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
 }
 
 
 /* MAIN */
 
 .main{
-    display: flex;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 20px;
+    display               : flex;
+    box-shadow            : rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius         : 20px;
 }
 
 /* LOGO */
 
 
 .main__logo{
-    width: 15%;
-    height: 15em;
+    width                 : 15%;
+    height                : 15em;
 }
 
 .main__logo__logo{
-    max-width: 100%;
+    max-width             : 100%;
 }
 
 /* SECTION --- HOME PAGE, ABOUT PAGE */
 
 .main__content{
-    width: 85%;
+    width                 : 85%;
 }
 
 .home__main__content__game{
-    padding-left: 2em;
-    margin-bottom: 1em;
+    padding-left          : 2em;
+    margin-bottom         : 1em;
 }
 
 
 /* SECTION --- CONTACT PAGE */
 
 .main__content{
-    padding: 2em;
-    font-family: 'Ubuntu', sans-serif;
+    padding               : 2em;
+    font-family           : 'Ubuntu', sans-serif;
 }
 
 .contact__main__content__p{
-    margin-bottom: 1em;
+    margin-bottom         : 1em;
 }
 
 /* SECTION -- RULES & POLICIES, GAME INFORMATION */
 
 .bold{
-    font-weight: bold;
+    font-weight           : bold;
 }
 
 .uppercase{
-    text-transform: uppercase;
+    text-transform        : uppercase;
 }
 
 .textCenter{
-    text-align: center;
+    text-align            : center;
 }
 
 .oblique{
-    font-style: oblique;
+    font-style            : oblique;
 }
 
 .subline{
-    text-decoration: underline;
+    text-decoration       : underline;
 }
 
 .buttonSpace{
-    margin-bottom: 2em;
+    margin-bottom         : 2em;
 }
 
 .indent{
-    text-indent: 2em;
+    text-indent           : 2em;
 }
 
 .liAlign{
-    margin-left: 1em;
+    margin-left           : 1em;
 }
 
 .liAlign2{
-    margin-left: 4em;
+    margin-left           : 4em;
 }
 
 .inline{
-    display: inline;
+    display               : inline;
 }
 
 ::marker{
-    font-weight: bold;
+    font-weight           : bold;
 }
 
 .listTipe_a{
-    list-style: lower-alpha;
+    list-style            : lower-alpha;
 }
 
 .listType_whiteCircle{
-    list-style: circle;
+    list-style            : circle;
 }
 
 /* GAME INFORMATION */
 
 .containerFlex{
-    display: flex;
-    justify-content: space-between;
+    display               : flex;
+    justify-content       : space-between;
 }
 
 .buttonSpace2{
-    margin-bottom: 4em;
+    margin-bottom         : 4em;
 }
 
 .gameInfo__main__section__table{
-    width: 100%;
-    margin: 0 auto;
-    border-collapse: separate;
-    border-spacing: 0 1em;
+    width                 : 100%;
+    margin                : 0 auto;
+    border-collapse       : separate;
+    border-spacing        : 0 1em;
 }
 
 .textStart{
-    text-align: start;
+    text-align            : start;
 }
