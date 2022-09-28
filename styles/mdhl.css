@@ -133,6 +133,10 @@ body{
     border-radius         : 20px;
 }
 
+.main__gameInfo{
+    justify-content: center;
+}
+
 /* LOGO */
 
 
@@ -149,6 +153,10 @@ body{
 
 .main__content{
     width                 : 85%;
+}
+
+.main__content__gameInfo{
+    width: 100%;
 }
 
 .home__main__content__game{
