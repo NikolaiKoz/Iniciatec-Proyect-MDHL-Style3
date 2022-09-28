@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang                          = "en">
+<head>
+    <meta name                      = "Author" lang="es" content="Jose Luis Vallejos">
+    <meta name                      = "keywords" content="hockey, ducks, mighty, league, form, inscription">
+    <meta name                      = "description" content="Mighty Ducks League of hockey inscription with us">
+    <meta name                      = "copyright" content="Copyright MDHL">
+    <meta name                      = "robot" content="index">
+    <meta charset                   = "UTF-8">
+    <meta http-equiv                = "X-UA-Compatible" content="IE=edge">
+    <meta name                      = "viewport" content="width=device-width, initial-scale=1.0">
+    <link rel                       = "shortcut icon" href="../assets/img/logo.png" type="image/x-icon">
+    <link rel                       = "stylesheet" href="../styles/mdhl.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class                      = "navbar">
+        <a class                    = "navbar__anchor" href="../index.html">Home</a>
+        <a class                    = "navbar__anchor" href="./about.html">About MDHL</a>
+        <a class                    = "navbar__anchor" href="./contact.html">Contact</a>
+        <a class                    = "navbar__anchor" href="./rules.html">Rules & Policies</a>
+        <a class                    = "navbar__anchor" href="./game_info.html">Game info</a>
+        <a class                    = "navbar__anchor selected" href="./registration.html">Register</a>
+        <div class                  = "navbar__containerShortcut">
+            <img class              = "navbar__containerShortcut__shortcut" src="../assets/img/Hamburger_icon.svg.png" alt="menu icon">
+        </div>
+        <div class                  = "navbar__containerLogo">
+            <img src                = "../assets/img/logo.png" alt="logo" class="navbar__containerLogo__logo">
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <header class                   = "header">
+        <h1 class                   = "header__title">Mighty Ducks Hockey League</h1>
+        <div class                  = "header__img">
+            <div class              = "header__containerImg">
+                <img src            = "../assets/img/logo.png" alt="Logo" class="header__containerImg__img">
+            </div>
+        </div>
+        <h2 class                   = "header__subtitle">Registration Form</h2>
+    </header>
+    <!-- MAIN -->
+    <main class                     = "main">
+        <!-- LOGO -->
+        <div class                  = "main__logo">
+            <img src                = "../assets/img/palo-hockey-sobre-hielo-inventario-realista-madera-o-fibra-juegos-deportes-invierno-aislado-fondo-blanco_533410-1104.jpg" alt="logo" class="main__logo__logo">
+        </div>
+        <!-- SECTION -->
+        <section class              = "main__content">
+            <h2 class               = "main__content__title">Registration Form</h2>
+            <form  name             = "Registration__Form" action        = "../show_data.html"            = "" class="main__content__form" method="get">
+
+                <label for          = "first_name">Player's First Name:</label>
+                <input class        = "generalStyles" id="first_name" type="text" name="first_name">
+                <label for          = "lastName">Last Name:</label>
+                <input class        = "generalStyles" id="lastName" type="text" name="lastName">
+
+                <br>
+
+                <label for          = "address">Street Addres:</label>
+                <input class        = "generalStyles maxLine" id="address" type="text" name="address">
+
+                <br>
+
+                <label for          = "city">City:</label>
+                <input class        = "generalStyles" id="city" type="text" name="address">
+
+                <label for          = "zipCode">Zip Code:</label>
+                <input class        = "generalStyles" id="zipCode" type="text" name="zipCode">
+
+                <br>
+
+                <label for          = "birthDate">Birth Date:</label>
+                <input class        = "generalStyles" id="birthDate" type="date" name="birthDate">
+
+                <label for          = "gender">Gender:</label>
+                <label for          = "male">Male</label>
+                <input id           = "male gender" type="radio" name="gender" value="Male">
+
+                <label for          = "female">Female</label>
+                <input id           = "female gender" type="radio" name="gender" value="Female">
+
+                <label for          = "other">Others</label>
+                <input id           = "other gender" type="radio" name="gender" value="Others">
+
+                <br>
+
+                <label for          = "grade">Grade:</label>
+                <label for          = "preSchool">Pre-School</label>
+                <input id           = "preSchool grade" type="radio" name="grade" value="Pre-School">
+
+                <label for          = "1st">1st</label>
+                <input id           = "1st grade" type="radio" name="grade" value="1nd">
+
+                <label for          = "2nd">2nd</label>
+                <input id           = "2nd grade" type="radio" name="grade" value="2nd">
+
+                <label for          = "3rd">3rd</label>
+                <input id           = "3rd grade" type="radio" name="grade" value="3rd">
+
+                <label for          = "4th">4th</label>
+                <input id           = "4th grade" type="radio" name="grade" value="4th">
+
+                <label for          = "5th">5th</label>
+                <input id           = "5th grade" type="radio" name="grade" value="5th">
+
+                <h3 class           = "main__content__form__subTitle">
+                    Which elementary School do you live near?
+                </h3>
+
+                <label class        = "marginBt" for="closestSchool">Closest School:</label>
+
+                <br>
+
+                <div class          = "main__content__form__containerFlex">
+                    <div>
+                        <input id   = "aJKatzenmaier closestSchool" type="radio" name="closestSchool" value="AJ Katzenmainer">
+                        <label for  = "aJKatzenmaier">AJ Katzenmainer</label>
+
+                        <br>
+
+                        <input id   = "greenbay closestSchool" type="radio" name="closestSchool" value="Greenbay">
+                        <label for  = "greenbay">Greenbay</label>
+
+                        <br>
+
+                        <input id   = "howardAYeager closestSchool" type="radio" name="closestSchool" value="Howard A Yeager">
+                        <label for  = "howardAYeager">Howard A Yeager</label>
+                    </div>
+                    <div>
+                        <input id   = "marjoriePHart closestSchool" type="radio" name="closestSchool" value="Marjorie P Hart">
+                        <label for  = "marjoriePHart">Marjorie P Hart</label>
+
+                        <br>
+
+                        <input id   = "northElementary closestSchool" type="radio" name="closestSchool" value="North Elementary">
+                        <label for  = "northElementary">North Elementary</label>
+
+                        <br>
+
+                        <input id   = "southElementary closestSchool" type="radio" name="closestSchool" value="South Elementary">
+                        <label for  = "southElementary">South Elementary</label>
+                    </div>
+                </div>
+
+
+                <h3 class           = "main__content__form__subTitle">
+                    What position(s) do you normaly play? (check all that apply)
+                </h3>
+
+                <div class          = "main__content__form__containerFlex">
+                    <div>
+                        <input id   = "forward" type="checkbox" name="position" value="Forward">
+                        <label for  = "forward">Forward</label>
+
+                        <br>
+
+                        <input id   = "defense" type="checkbox" name="position" value="Defense">
+                        <label for  = "defense">Defense</label>
+                    </div>
+                    <div>
+                        <input id   = "midfield" type="checkbox" name="position" value="Midfield">
+                        <label for  = "midfield">Midfield</label>
+
+                        <br>
+
+                        <input id   = "goalkeeper" type="checkbox" name="position" value="Goalkeeper">
+                        <label for  = "goalkeeper">Goalkeeper</label>
+                    </div>
+                </div>
+
+                <h3 class           = "main__content__form__subTitle">
+                    Uniform Size    : 
+                </h3>
+
+                <div class          = "main__content__form__containerFlex">
+                    <div>
+                        <input id   = "youthSmal" type="checkbox" name="uniformSize" value="Youth Smal">
+                        <label for  = "youthSmal">Youth Smal</label>
+
+                        <br>
+
+                        <input id   = "youthMedium" type="checkbox" name="uniformSize" value="Youth Medium">
+                        <label for  = "youthMedium">Youth Medium</label>
+
+                        <br>
+
+                        <input id   = "youthLarge" type="checkbox" name="uniformSize" value="Youth Large">
+                        <label for  = "youthLarge">Youth Large</label>
+
+                        <br>
+
+                        <input id   = "small" type="checkbox" name="uniformSize" value="Small">
+                        <label for  = "small">Small</label>
+                    </div>
+                    <div>
+                        <input id   = "medium" type="checkbox" name="uniformSize" value="Medium">
+                        <label for  = "medium">Medium</label>
+
+                        <br>
+
+                        <input id   = "large" type="checkbox" name="uniformSize" value="Large">
+                        <label for  = "large">Large</label>
+
+                        <br>
+
+                        <input id   = "extraLarge" type="checkbox" name="uniformSize" value="Extra-Large">
+                        <label for  = "extraLarge">Extra-Large</label>
+                    </div>
+                </div>
+
+
+
+                <h3 class           = "main__content__form__subTitle">
+                    Permission to play
+                </h3>
+                <p>
+                    I, the parent or guardion of the minior registrant, agree that the registrant and i will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and in cosideration for the "League" accepting the registrant for its their employees and associated personnel and volunteers, including the facilities used for registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities, witch transportation.
+                </p>
+                <p>
+                    By entering your name below, I here by agree and authorize the above. in addition, by signing below, I also acknowledge that I have read the cancellation policity and agree to its terms.
+                </p>
+
+                <br>
+
+                <label for          = "parentOrGuardian">Parent/GuardiandSignature:</label>
+                <input class        = "generalStyles" id="parentOrGuardian" type="text" name="Parent/GuardiandSignature">
+
+                <label for          = "date">Date:</label>
+                <input id           = "date" type="date" name="date">
+
+                <br>
+
+                <button type        = "submit">Register</button>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
